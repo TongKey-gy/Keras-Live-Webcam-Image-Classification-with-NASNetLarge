@@ -32,4 +32,5 @@
 Predicted: [('n04557648', 'water_bottle', np.float32(0.92492133)), ('n03983396', 'pop_bottle', np.float32(0.0054904055)), ('n03825788', 'nipple', np.float32(0.0008485333))]
 
 -상황 : 물병을 webcam에 capture함
+
 -결과 : 이 모델은 water_bottle로 제대로 인식함.
