@@ -25,3 +25,11 @@
 2.  **코드 셀을 순차적으로 실행**합니다. 웹캠 접근 권한 요청 팝업이 나타나면 허용합니다.
 3.  웹캠 화면이 나타나면, 사진을 찍을 준비가 되었을 때 "Capture" 버튼을 클릭합니다.
 4.  모델이 이미지를 분석하고 예측한 상위 3개 분류 결과를 즉시 확인할 수 있습니다.
+
+
+<실행 결과>
+<img width="805" height="626" alt="webcam Result" src="https://github.com/user-attachments/assets/58ca6255-24c4-4be9-8370-29f948d5c627" />
+Predicted: [('n04557648', 'water_bottle', np.float32(0.92492133)), ('n03983396', 'pop_bottle', np.float32(0.0054904055)), ('n03825788', 'nipple', np.float32(0.0008485333))]
+
+-상황 : 물병을 webcam에 capture함
+-결과 : 이 모델은 water_bottle로 제대로 인식함.
